@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "curly": ["error", "all"],
+    "no-alert": ["error"],
+    "no-console": ["warn"],
+    "no-duplicate-imports": ["error"],
+    "no-else-return": ["error", { "allowElseIf": false }],
+    "no-return-assign": ["error"],
+    "no-return-await": ["warn"],
+    "no-throw-literal": ["error"],
+    "object-shorthand": ["error"],
+    "prefer-promise-reject-errors": ["error"],
+    "yoda": ["error", "never", { "exceptRange": true }]
+  }
+}
