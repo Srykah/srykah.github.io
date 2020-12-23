@@ -3,11 +3,13 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { GamesPlayed } from "./pages/GamesPlayed";
 import { Home } from "./pages/Home";
 import { MyGames } from "./pages/MyGames";
+import { Navbar } from "./components/Navbar";
 
 function App(): React.ReactElement {
 	return (
 		<div className="App">
 			<BrowserRouter>
+				<Navbar />
 				<Switch>
 					<Route path="/games-played">
 						<GamesPlayed />
