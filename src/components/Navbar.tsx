@@ -1,19 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { TabNavLink } from "./TabNavLink";
 
 export function Navbar(): React.ReactElement {
 	return (
 		<div className="tabs is-medium is-centered">
 			<ul>
-				<li>
-					<Link to="/">Home</Link>
-				</li>
-				<li>
-					<Link to="/my-games">Games I made</Link>
-				</li>
-				<li>
-					<Link to="/games-played">Games I played</Link>
-				</li>
+				<TabNavLink to="/" label="Home" exact />
+				<TabNavLink to="/my-games" label="Games I made" />
+				<TabNavLink to="/games-played" label="Games I played" />
 			</ul>
 		</div>
 	);
