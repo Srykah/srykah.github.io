@@ -2,8 +2,8 @@ import React from "react";
 
 export function MyGames(): React.ReactElement {
 	return (
-		<div>
-			<p>Games I made</p>
+		<div className="container has-text-centered">
+			<h2 className="title">Games I made</h2>
 		</div>
 	);
 }

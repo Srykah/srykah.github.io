@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 
 function App(): React.ReactElement {
 	return (
-		<div className="App">
+		<div>
 			<BrowserRouter>
 				<Navbar />
 				<Switch>
